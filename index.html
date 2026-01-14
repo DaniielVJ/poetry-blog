@@ -5,7 +5,57 @@
     <title>Poetry Blog</title>
 </head>
 <body>
-    <div>Hola Mundo!!!</div>
-    
+    <header>
+        <h1>🕊️ Blog de Poesia 🕊️</h1>
+    </header>
+
+    <main>
+        <!-- Un div se usa siempre que necesitemos agrupar elementos o contenidos html que juntos conformaran una entidad
+         o elemento mas grande. Ejemplo un modal de una pagina web, es un div que agrupa un conjunto de elementos independientes
+         que juntos conforman un elemento o entidad mas grande que es  el modal -->
+        <div class="poem">
+            <!-- En este caso este div agrupa todos los elementos que juntos representan un Poema, por ende cada div con esta
+             estructura podria ser un poema dentro de la pagina web -->
+            <h2>Poema 20 (Fragmento)</h2>
+            <p>
+                Puedo escribir los versos más tristes esta noche. <br>
+                Escribir, por ejemplo: "La noche está estrellada, <br>
+                y tiritan, azules, los astros, a lo lejos."
+            </p>
+            <!-- Podemos tener divs dentro de los divs que internamente pueden representar a otra entidad y este componer a otra
+             en este caso este div es para representar los datos del autor del poema o al poeta, y esta agrupado dentro del div
+             que representa el poema pq este div compone al poema igualmente.-->
+            <div class="author">— Pablo Neruda</div>
+        </div>
+
+        <!-- Todos los elementos del div juntos agrupados conforman una unidad logica que es el div, un peoma. -->
+         <!-- shortcut de al estructura que definimos para representar en la pagina web cada poema:  -->
+        <div class="poem">
+            <h2>Amanecer</h2>
+            <p> 
+                La brisa susurra secretos al alba, <br>
+                las hojas despiertan con un dulce temblor. <br>
+                El sol besa el horizonte dorado, <br>
+                un nuevo día nace en su fulgor.  
+            </p>
+            <div class="author">— Autor Anónimo</div>
+        </div>
+
+        <div class="pem">
+            <h2>Cordura</h2>
+            <p>
+                Algunas personas <br>
+                nunca se vuelven locas. <br>
+                Qué vidas tan <br>
+                horribles deben llevar.  
+            </p>
+            <div class="author">— Charles Bukowski</div>
+        </div>
+
+    </main>
+
+    <footer>
+         <p>📖 Disfruta la poesía, deja volar tu imaginación. © 2025</p>
+    </footer>
 </body>
 </html>
